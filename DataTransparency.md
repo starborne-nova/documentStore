@@ -16,6 +16,8 @@ PI - Personal Identifiable: This is data that can be directly traced to a person
 
 PP - Personal Protected: This is data that can identify and authorize a person to take protected actions. Examples include: A username and password pair used to log in to an account
 
+For all intents and purposes, the server has Volatile Storage. This means that data is lost in the event that the server reaches it's storage capacity, or power cycles on it's regular schedule
+
 
 ## Data sent to the server
 
@@ -39,3 +41,6 @@ This commonly includes CI and DI data that is used by an ISP to facilitate inter
 
 The server does not request or store DI, PI, or PP information. Your twitch information is not stored or linked to your extension use.
 
+## Outro
+
+TL:DR; No personal identifying information is ever stored or requested. Server ingoing and outgoing connections are logged in memory and not stored anywhere
